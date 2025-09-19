@@ -543,37 +543,37 @@ function getAboutContent() {
                 <div class="card" style="text-align: center; background: #f6fff4;">
                     <div class="avatar" style="margin: 0 auto 1rem auto; background: #2b7a2b;">S</div>
                     <h4>Shreya Pavaskar</h4>
-                    <p class="muted">Lead Developer</p>
+                    <p class="muted">Leader</p>
                 </div>
                 
                 <div class="card" style="text-align: center; background: #f6fff4;">
                     <div class="avatar" style="margin: 0 auto 1rem auto; background: #2b7a2b;">B</div>
                     <h4>Bhagyashri Bhagwat</h4>
-                    <p class="muted">Frontend Developer</p>
+                    <p class="muted">Member</p>
                 </div>
                 
                 <div class="card" style="text-align: center; background: #f6fff4;">
                     <div class="avatar" style="margin: 0 auto 1rem auto; background: #2b7a2b;">A</div>
                     <h4>Anvit Naik</h4>
-                    <p class="muted">UI/UX Designer</p>
+                    <p class="muted">Member</p>
                 </div>
                 
                 <div class="card" style="text-align: center; background: #f6fff4;">
                     <div class="avatar" style="margin: 0 auto 1rem auto; background: #2b7a2b;">K</div>
                     <h4>Kempanna Kadabi</h4>
-                    <p class="muted">Backend Developer</p>
+                    <p class="muted">Member</p>
                 </div>
                 
                 <div class="card" style="text-align: center; background: #f6fff4;">
                     <div class="avatar" style="margin: 0 auto 1rem auto; background: #2b7a2b;">N</div>
                     <h4>Nivrutti Patil</h4>
-                    <p class="muted">Database Specialist</p>
+                    <p class="muted">Member</p>
                 </div>
                 
                 <div class="card" style="text-align: center; background: #f6fff4;">
                     <div class="avatar" style="margin: 0 auto 1rem auto; background: #2b7a2b;">K</div>
                     <h4>Kedar Nimbalkar</h4>
-                    <p class="muted">Quality Assurance</p>
+                    <p class="muted">Member</p>
                 </div>
             </div>
         </div>
