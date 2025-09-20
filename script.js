@@ -333,7 +333,7 @@ function renderApp() {
             <div class="container">
                 <header class="header">
                     <div class="header-content">
-                        <a href="#" class="logo">🌱 EcoPlay</a>
+                        <a href="#" class="logo"> EcoPlay</a>
                         <nav class="nav">
                             <a href="#" class="nav-link active">Home</a>
                             <a href="#" onclick="showAboutPublic()">About</a>
@@ -356,17 +356,17 @@ function renderApp() {
                     
                     <div class="grid">
                         <div class="card">
-                            <h3>🎯 Earn Points</h3>
+                            <h3> Earn Points</h3>
                             <p>Complete quizzes, submit environmental activities, and participate in community events to earn points and badges.</p>
                         </div>
                         
                         <div class="card">
-                            <h3>🌱 Daily Watering</h3>
+                            <h3> Daily Watering</h3>
                             <p>Track your plant care journey with daily watering submissions. Build streaks and show your commitment!</p>
                         </div>
                         
                         <div class="card">
-                            <h3>🏆 Certificates</h3>
+                            <h3> Certificates</h3>
                             <p>Download personalized certificates showcasing your environmental contributions and achievements.</p>
                         </div>
                     </div>
@@ -392,7 +392,7 @@ function showAboutPublic() {
         <div class="container">
             <header class="header">
                 <div class="header-content">
-                    <a href="#" class="logo" onclick="renderApp()">🌱 EcoPlay</a>
+                    <a href="#" class="logo" onclick="renderApp()"> EcoPlay</a>
                     <nav class="nav">
                         <a href="#" onclick="renderApp()">Home</a>
                         <a href="#" class="nav-link active" onclick="showAboutPublic()">About</a>
@@ -418,7 +418,7 @@ function showContactPublic() {
         <div class="container">
             <header class="header">
                 <div class="header-content">
-                    <a href="#" class="logo" onclick="renderApp()">🌱 EcoPlay</a>
+                    <a href="#" class="logo" onclick="renderApp()"> EcoPlay</a>
                     <nav class="nav">
                         <a href="#" onclick="renderApp()">Home</a>
                         <a href="#" onclick="showAboutPublic()">About</a>
@@ -439,13 +439,13 @@ function showContactPublic() {
                 
                 <div class="grid">
                     <div class="card">
-                        <h3>📧 General Inquiries</h3>
+                        <h3> General Inquiries</h3>
                         <p>For general questions about EcoPlay, partnerships, or feedback:</p>
                         <p><strong>ecoplay.team@example.com</strong></p>
                     </div>
                     
                     <div class="card">
-                        <h3>🏫 Educational Institutions</h3>
+                        <h3> Educational Institutions</h3>
                         <p>Interested in implementing EcoPlay at your school or college?</p>
                         <p><strong>education@ecoplay.example.com</strong></p>
                     </div>
@@ -458,7 +458,7 @@ function showContactPublic() {
                 </div>
                 
                 <div class="card">
-                    <h3>💬 Send us a Message</h3>
+                    <h3> Send us a Message</h3>
                     <form id="contactForm">
                         <div class="form-group">
                             <label for="contactName">Your Name</label>
@@ -513,12 +513,12 @@ function getAboutContent() {
         
         <div class="grid">
             <div class="card">
-                <h3>🌍 Our Mission</h3>
+                <h3>Our Mission</h3>
                 <p>EcoPlay is designed to engage students and environmental enthusiasts in meaningful environmental activities through gamification. We believe that making environmental action fun and rewarding leads to lasting behavioral change.</p>
             </div>
             
             <div class="card">
-                <h3>🎯 Key Features</h3>
+                <h3>  Key Features</h3>
                 <ul style="text-align: left; padding-left: 1rem;">
                     <li>Daily plant watering challenges with photo verification</li>
                     <li>Interactive environmental quizzes and learning modules</li>
@@ -530,13 +530,13 @@ function getAboutContent() {
             </div>
             
             <div class="card">
-                <h3>🏫 Perfect for Educational Institutions</h3>
+                <h3> Perfect for Educational Institutions</h3>
                 <p>EcoPlay is specifically designed for schools, colleges, and educational institutions looking to promote environmental awareness among students. Our platform encourages real-world environmental action while providing measurable engagement metrics.</p>
             </div>
         </div>
         
         <div class="card">
-            <h3>👥 Development Team</h3>
+            <h3> Development Team</h3>
             <p style="margin-bottom: 1.5rem;">EcoPlay was developed by a dedicated team of students passionate about environmental conservation and technology:</p>
             
             <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
@@ -580,24 +580,24 @@ function getAboutContent() {
         
         <div class="grid">
             <div class="card">
-                <h3>🔧 Technical Implementation</h3>
+                <h3> Technical Implementation</h3>
                 <p>EcoPlay is built using modern web technologies with a focus on simplicity and accessibility. The platform uses local storage for data persistence in this demo version, making it easy to deploy and test without requiring backend infrastructure.</p>
             </div>
             
             <div class="card">
-                <h3>🌱 Environmental Impact</h3>
+                <h3> Environmental Impact</h3>
                 <p>By encouraging daily plant care, environmental education, and community engagement, EcoPlay aims to create lasting positive environmental habits. Every photo submitted and quiz completed represents a step toward greater environmental awareness.</p>
             </div>
             
             <div class="card">
-                <h3>📞 Contact & Support</h3>
+                <h3> Contact & Support</h3>
                 <p>For questions, suggestions, or partnership opportunities, please reach out to our development team. We're always looking for ways to improve and expand EcoPlay's impact.</p>
                 <p class="muted">Email: ecoplay.team@example.com</p>
             </div>
         </div>
         
         <div class="card text-center">
-            <h3>🚀 Join the Movement</h3>
+            <h3> Join the Movement</h3>
             <p>Ready to start your environmental journey? Create an account and begin making a difference today!</p>
             ${
               !AppState.currentUser
@@ -722,7 +722,7 @@ function renderDashboard(content) {
       
       <div class="grid">
           <div class="card">
-              <h3>🌱 Daily Watering Streak</h3>
+              <h3> Daily Watering Streak</h3>
               <div style="text-align: center; margin: 1rem 0;">
                   <div style="font-size: 2rem; font-weight: bold; color: #2b7a2b;">
                       ${streak} Days
@@ -731,8 +731,8 @@ function renderDashboard(content) {
               </div>
               ${
                 todayRecord
-                  ? '<p style="color: #2b7a2b; font-weight: bold;">✅ Today\'s watering complete!</p>'
-                  : '<p style="color: #f57c00; font-weight: bold;">⏰ Don\'t forget to water today!</p>'
+                  ? '<p style="color: #2b7a2b; font-weight: bold;"> Today\'s watering complete!</p>'
+                  : '<p style="color: #f57c00; font-weight: bold;"> Don\'t forget to water today!</p>'
               }
               <button class="btn btn-primary" onclick="navigateTo('watering')" style="width: 100%; margin-top: 1rem;">
                   ${todayRecord ? "View Watering History" : "Submit Today's Watering"}
@@ -740,7 +740,7 @@ function renderDashboard(content) {
           </div>
           
           <div class="card">
-              <h3>🎯 Quick Stats</h3>
+              <h3> Quick Stats</h3>
               <div style="display: flex; justify-content: space-between; margin: 1rem 0;">
                   <div style="text-align: center;">
                       <div style="font-size: 1.5rem; font-weight: bold; color: #2b7a2b;">${user.points}</div>
@@ -758,7 +758,7 @@ function renderDashboard(content) {
           </div>
           
           <div class="card">
-              <h3>🎮 Quick Actions</h3>
+              <h3> Quick Actions</h3>
               <div style="display: flex; flex-direction: column; gap: 0.5rem;">
                   <button class="btn btn-primary" onclick="navigateTo('games')" style="width: 100%;">
                       Take Quiz
@@ -774,7 +774,7 @@ function renderDashboard(content) {
       </div>
       
       <div class="card">
-          <h3>📈 Recent Activity</h3>
+          <h3> Recent Activity</h3>
           ${renderRecentActivity()}
       </div>
   `
@@ -796,7 +796,7 @@ function renderRecentActivity() {
       (record) => `
       <div class="submission-item">
           <div>
-              <strong>🌱 Plant Watering</strong>
+              <strong> Plant Watering</strong>
               <span class="submission-date">${new Date(record.date).toLocaleDateString()}</span>
           </div>
           <div class="muted">${record.note} • +${record.points} points</div>
@@ -832,9 +832,9 @@ function renderWateringView(content) {
   content.innerHTML = `
         <div class="watering-section">
             <div class="watering-header">
-                <h2>🌱 Daily Plant Watering Challenge</h2>
+                <h2> Daily Plant Watering Challenge</h2>
                 <div class="streak-counter">
-                    🔥 ${streak} Day Streak
+                     ${streak} Day Streak
                 </div>
             </div>
             
@@ -844,7 +844,7 @@ function renderWateringView(content) {
               todayRecord
                 ? `
                 <div class="card" style="background: #e8f5e8; border: 2px solid #2b7a2b;">
-                    <h3>✅ Today's Watering Complete!</h3>
+                    <h3> Today's Watering Complete!</h3>
                     <p>Great job! You've already submitted your watering photo for today.</p>
                     <img src="${todayRecord.imageData}" alt="Today's watering" class="image-preview">
                     <p class="muted">Submitted at: ${new Date(todayRecord.date).toLocaleString()}</p>
@@ -853,11 +853,11 @@ function renderWateringView(content) {
             `
                 : `
                 <div class="card">
-                    <h3>📸 Submit Today's Watering Photo</h3>
+                    <h3> Submit Today's Watering Photo</h3>
                     
                     <div class="upload-area" id="uploadArea" onclick="document.getElementById('wateringPhoto').click()">
                         <div id="uploadContent">
-                            <p>📷 Click here or drag & drop your watering photo</p>
+                            <p>Click here or drag & drop your watering photo</p>
                             <p class="muted">Show yourself watering plants to maintain authenticity</p>
                         </div>
                         <img id="imagePreview" class="image-preview hidden" alt="Preview">
@@ -880,27 +880,27 @@ function renderWateringView(content) {
         </div>
         
         <div class="card">
-            <h3>📅 Your Watering History</h3>
+            <h3> Your Watering History</h3>
             <div class="watering-history">
                 ${renderWateringHistory(wateringRecords)}
             </div>
         </div>
         
         <div class="card">
-            <h3>🏆 Watering Achievements</h3>
+            <h3> Watering Achievements</h3>
             <div class="grid">
                 <div class="card ${streak >= 3 ? "card-unlocked" : "card-locked"}">
-                    <h4>🌱 Seedling Caretaker</h4>
+                    <h4> Seedling Caretaker</h4>
                     <p>Water plants for 3 consecutive days</p>
                     <p class="muted">${streak >= 3 ? "Unlocked!" : `${Math.max(0, 3 - streak)} days to go`}</p>
                 </div>
                 <div class="card ${streak >= 7 ? "card-unlocked" : "card-locked"}">
-                    <h4>🌿 Green Thumb</h4>
+                    <h4> Green Thumb</h4>
                     <p>Water plants for 7 consecutive days</p>
                     <p class="muted">${streak >= 7 ? "Unlocked!" : `${Math.max(0, 7 - streak)} days to go`}</p>
                 </div>
                 <div class="card ${streak >= 30 ? "card-unlocked" : "card-locked"}">
-                    <h4>🌳 Plant Master</h4>
+                    <h4> Plant Master</h4>
                     <p>Water plants for 30 consecutive days</p>
                     <p class="muted">${streak >= 30 ? "Unlocked!" : `${Math.max(0, 30 - streak)} days to go`}</p>
                 </div>
@@ -1080,13 +1080,13 @@ function renderGamesView(content) {
 
   content.innerHTML = `
         <div class="text-center mb-2">
-            <h1>🎮 Environmental Games & Quizzes</h1>
+            <h1> Environmental Games & Quizzes</h1>
             <p class="muted">Test your environmental knowledge and earn points!</p>
         </div>
         
         <div class="grid">
             <div class="card">
-                <h3>📚 Available Quizzes</h3>
+                <h3> Available Quizzes</h3>
                 ${
                   quizzes.length === 0
                     ? '<p class="muted">No quizzes available yet. Check back later!</p>'
@@ -1108,12 +1108,12 @@ function renderGamesView(content) {
             </div>
             
             <div class="card">
-                <h3>🏆 Your Quiz History</h3>
+                <h3> Your Quiz History</h3>
                 ${renderQuizHistory()}
             </div>
             
             <div class="card">
-                <h3>📸 Submit Environmental Activity</h3>
+                <h3> Submit Environmental Activity</h3>
                 <p>Upload photos of your environmental activities for bonus points!</p>
                 
                 <div class="form-group">
@@ -1144,18 +1144,18 @@ function renderGamesView(content) {
         </div>
         
         <div class="card">
-            <h3>🎯 How to Earn Points</h3>
+            <h3> How to Earn Points</h3>
             <div class="grid">
                 <div class="card" style="background: #f6fff4;">
-                    <h4>📝 Quizzes</h4>
+                    <h4> Quizzes</h4>
                     <p>Complete environmental knowledge quizzes to earn 5-10 points per correct answer.</p>
                 </div>
                 <div class="card" style="background: #f6fff4;">
-                    <h4>🌱 Daily Watering</h4>
+                    <h4> Daily Watering</h4>
                     <p>Submit daily plant watering photos to earn 15 points and maintain your streak.</p>
                 </div>
                 <div class="card" style="background: #f6fff4;">
-                    <h4>📸 Activities</h4>
+                    <h4> Activities</h4>
                     <p>Upload photos of environmental activities for 10-20 points (subject to verification).</p>
                 </div>
             </div>
@@ -1366,7 +1366,7 @@ function startQuiz(quizId) {
     content.innerHTML = `
             <div class="quiz-container">
                 <div class="card text-center">
-                    <h2>🎉 Quiz Complete!</h2>
+                    <h2> Quiz Complete!</h2>
                     <div style="margin: 2rem 0;">
                         <div style="font-size: 3rem; color: #2b7a2b; margin-bottom: 1rem;">
                             ${totalPoints}
@@ -1420,7 +1420,7 @@ function renderProfileView(content) {
         
         <div class="grid">
             <div class="card">
-                <h3>📊 Your Statistics</h3>
+                <h3> Your Statistics</h3>
                 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1rem;">
                     <div style="text-align: center; padding: 1rem; background: #f6fff4; border-radius: 8px;">
                         <div style="font-size: 1.5rem; font-weight: bold; color: #2b7a2b;">${user.points}</div>
@@ -1442,14 +1442,14 @@ function renderProfileView(content) {
             </div>
             
             <div class="card">
-                <h3>🏆 Achievements & Badges</h3>
+                <h3> Achievements & Badges</h3>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
                     ${renderBadges(user)}
                 </div>
             </div>
             
             <div class="card">
-                <h3>📜 Generate Certificate</h3>
+                <h3> Generate Certificate</h3>
                 <p>Download a personalized certificate showcasing your environmental contributions!</p>
                 <div style="text-align: center; margin: 1.5rem 0;">
                     <div style="font-size: 1.2rem; margin-bottom: 1rem;">
@@ -1474,7 +1474,7 @@ function renderProfileView(content) {
         </div>
         
         <div class="card">
-            <h3>📈 Recent Activity</h3>
+            <h3> Recent Activity</h3>
             ${renderDetailedActivity(user)}
         </div>
     `
@@ -1487,7 +1487,7 @@ function renderBadges(user) {
       name: "Quiz Master",
       requirement: "Complete 3 quizzes",
       earned: (user.quizzesTaken?.length || 0) >= 3,
-      icon: "🧠",
+      icon: "",
     },
     { name: "Green Thumb", requirement: "7-day watering streak", earned: user.wateringStreak >= 7, icon: "🌿" },
     { name: "Point Collector", requirement: "Earn 100 points", earned: user.points >= 100, icon: "💎" },
@@ -1555,7 +1555,7 @@ function renderDetailedActivity(user) {
       (activity) => `
         <div class="submission-item">
             <div>
-                <strong>${activity.type === "watering" ? "🌱" : activity.type === "quiz" ? "🧠" : "📸"} ${activity.description}</strong>
+                <strong>${activity.type === "watering" ? "" : activity.type === "quiz" ? "" : ""} ${activity.description}</strong>
                 <span class="submission-date">${new Date(activity.date).toLocaleDateString()}</span>
             </div>
             <div class="muted">+${activity.points} points</div>
@@ -1644,9 +1644,9 @@ function generateCertificate(format = "png") {
   // Decorative elements
   ctx.fillStyle = "#2b7a2b"
   ctx.font = "40px serif"
-  ctx.fillText("🌱", 150, 300)
-  ctx.fillText("🌍", canvas.width - 150, 300)
-  ctx.fillText("🏆", canvas.width / 2, 550)
+  ctx.fillText("", 150, 300)
+  ctx.fillText("", canvas.width - 150, 300)
+  ctx.fillText("", canvas.width / 2, 550)
 
   if (format === "pdf") {
     // For PDF, we'll use jsPDF library (would need to be included)
@@ -1671,7 +1671,7 @@ function renderRedeemView(content) {
 
   content.innerHTML = `
         <div class="text-center mb-2">
-            <h1>🎁 Redeem Your Points</h1>
+            <h1> Redeem Your Points</h1>
             <p class="muted">Exchange your hard-earned points for exciting rewards!</p>
             <div class="points-badge" style="font-size: 1.2rem; margin: 1rem 0;">
                 Available Points: ${user.points}
@@ -1680,35 +1680,35 @@ function renderRedeemView(content) {
         
         <div class="grid">
             <div class="card">
-                <h3>🌱 Eco Rewards</h3>
+                <h3> Eco Rewards</h3>
                 <div class="reward-list">
-                    ${renderRewardItem("Digital Plant Care Guide", 50, "Comprehensive guide to caring for indoor and outdoor plants", "📚")}
-                    ${renderRewardItem("Eco-Friendly Tips Collection", 75, "Collection of 100 practical environmental tips", "💡")}
-                    ${renderRewardItem("Virtual Tree Planting Certificate", 100, "Plant a virtual tree and get a personalized certificate", "🌳")}
+                    ${renderRewardItem("Digital Plant Care Guide", 50, "Comprehensive guide to caring for indoor and outdoor plants", "")}
+                    ${renderRewardItem("Eco-Friendly Tips Collection", 75, "Collection of 100 practical environmental tips", "")}
+                    ${renderRewardItem("Virtual Tree Planting Certificate", 100, "Plant a virtual tree and get a personalized certificate", "")}
                 </div>
             </div>
             
             <div class="card">
-                <h3>🏆 Achievement Rewards</h3>
+                <h3>  Achievement Rewards</h3>
                 <div class="reward-list">
-                    ${renderRewardItem("Environmental Hero Badge", 150, "Special digital badge for your profile", "🦸")}
-                    ${renderRewardItem("Sustainability Champion Title", 200, "Exclusive title and profile enhancement", "👑")}
-                    ${renderRewardItem("Eco Mentor Status", 300, "Become a mentor and help other users", "🎓")}
+                    ${renderRewardItem("Environmental Hero Badge", 150, "Special digital badge for your profile", "")}
+                    ${renderRewardItem("Sustainability Champion Title", 200, "Exclusive title and profile enhancement", "")}
+                    ${renderRewardItem("Eco Mentor Status", 300, "Become a mentor and help other users", "")}
                 </div>
             </div>
             
             <div class="card">
-                <h3>🎮 Platform Perks</h3>
+                <h3> Platform Perks</h3>
                 <div class="reward-list">
-                    ${renderRewardItem("Quiz Streak Multiplier", 120, "Double points for next 5 quizzes", "⚡")}
-                    ${renderRewardItem("Custom Profile Theme", 180, "Personalize your profile with custom colors", "🎨")}
-                    ${renderRewardItem("Early Access Features", 250, "Get early access to new platform features", "🚀")}
+                    ${renderRewardItem("Quiz Streak Multiplier", 120, "Double points for next 5 quizzes", "")}
+                    ${renderRewardItem("Custom Profile Theme", 180, "Personalize your profile with custom colors", "")}
+                    ${renderRewardItem("Early Access Features", 250, "Get early access to new platform features", "")}
                 </div>
             </div>
         </div>
         
         <div class="card">
-            <h3>📜 Your Redemption History</h3>
+            <h3> Your Redemption History</h3>
             ${
               userRedemptions.length === 0
                 ? '<p class="muted">No redemptions yet. Start earning points and redeem your first reward!</p>'
@@ -1729,7 +1729,7 @@ function renderRedeemView(content) {
         </div>
         
         <div class="card text-center">
-            <h3>💰 Earn More Points</h3>
+            <h3> Earn More Points</h3>
             <p>Need more points? Here are some quick ways to earn them:</p>
             <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
                 <button class="btn btn-primary" onclick="navigateTo('watering')">
